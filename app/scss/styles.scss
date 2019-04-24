@@ -5,17 +5,18 @@
 
 
 // params
-@import 'params/normalize.scss';
-@import 'params/base-styles.scss';
-@import 'params/grid.scss';
-@import 'params/vars.scss';
-@import 'params/display.scss';
-@import 'params/utilities.scss';
-@import 'params/mobile-hidden.scss';
+@import "params/normalize.scss";
+@import "params/base-styles.scss";
+@import "params/grid.scss";
+@import "params/vars.scss";
+@import "params/display.scss";
+@import "params/utilities.scss";
+@import "params/hidden.scss";
 
 
 // Sections
+@import "header/header.scss";
 
 
 // media queries
-@import 'params/media-queries.scss';
+@import "params/media-queries.scss";
