@@ -3,3 +3,10 @@ $fa-font-path: "../assets/webfonts";
 // Color vars
 $blue: #0960BD;
 $darkblue: #011F3F;
+$grey: #777F88;
+
+// Monserrat font heading
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: $darkblue;
+}

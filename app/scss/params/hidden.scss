@@ -1,13 +1,21 @@
-@media only screen and (max-width : 767px) {
+.mobile-hidden {
+   visibility: visible;
+}
+
+.tablet-hidden {
+   visibility: visible;
+}
+
+@media screen and (max-width : 767px) {
 
     .mobile-hidden {
-        display: none !important;
+        visibility: hidden;
     }
 }
 
-@media only screen and (max-width : 1024px) {
+@media screen and (max-width : 1024px) {
 
     .tablet-hidden {
-        display: none !important;
+        visibility: hidden;
     }
 }

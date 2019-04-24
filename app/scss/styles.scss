@@ -12,10 +12,13 @@
 @import "params/display.scss";
 @import "params/utilities.scss";
 @import "params/hidden.scss";
+@import "params/rounded-btn.scss";
 
 
 // Sections
 @import "header/header.scss";
+@import "main/get-started/get-started.scss";
+@import "main/teams/teams.scss";
 
 
 // media queries

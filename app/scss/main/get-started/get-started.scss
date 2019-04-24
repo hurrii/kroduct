@@ -1,0 +1,32 @@
+@import "get-started__button.scss";
+@import "get-started__description.scss";
+
+
+.get-started {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 768px){
+        justify-content: center;
+    }
+}
+
+.get-started__description {
+    flex-basis: 33.333%;
+
+    @media screen and (max-width: 768px){
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+
+.get-started img {
+    flex-basis: 50%;
+    margin-left: auto;
+
+    @media screen and (max-width: 768px){
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+}

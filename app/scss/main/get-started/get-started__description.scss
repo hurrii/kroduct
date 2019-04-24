@@ -1,0 +1,40 @@
+.get-started__description {
+
+    h1 {
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 52px;
+        white-space: nowrap;
+
+        @media screen and (max-width: 1024px) {
+            font-size: 28px;
+            line-height: 35px;
+        }
+
+    }
+
+    p {
+        font-size: 20px;
+        color: $grey;
+
+        @media screen and (max-width: 1024px) {
+            font-size: 14px;
+        }
+    }
+}
+/*
+@media screen and (max-width: 1023px) {
+    .get-started__description h1 {
+        font-size: 2.1rem;
+        font-weight: bold;
+        line-height: 52px;
+        white-space: nowrap;
+
+
+    }
+
+    .get-started__description p {
+        font-size: 15px;
+        color: $grey;
+    }
+} */
