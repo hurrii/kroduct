@@ -1,0 +1,14 @@
+@import "subscription__plan-item.scss";
+@import "subscription__plans-wrapper.scss";
+@import "subscription__heading.scss";
+
+.subscription {
+    background: url(/assets/img/subscription-bg.svg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 635px;
+    margin-top: 3%;
+    padding-top: 129px;
+    margin-bottom: 5%;
+    text-align: center;
+}

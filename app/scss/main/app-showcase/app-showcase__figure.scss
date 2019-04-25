@@ -2,7 +2,6 @@
     margin: 0;
     max-width: 20%;
     flex-basis: 20%;
-    text-align: center;
     background: white;
     padding-bottom: 8%;
     border-bottom: 1px solid rgba(119, 127, 136, 0.2);
@@ -17,7 +16,8 @@
         }
 
         @media screen  and (max-width: 580px) {
-            font-size: 9px;
+            font-size: 8px;
+            flex-basis: 15%;
         }
     }
 
