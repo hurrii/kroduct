@@ -1,4 +1,8 @@
 .header__user-login {
     white-space: nowrap;
     margin-left: auto;
+
+    a {
+        color: $darkblue;
+    }
 }

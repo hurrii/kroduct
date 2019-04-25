@@ -5,6 +5,10 @@
 
     li {
         display: inline;
+
+        a {
+            color: $darkblue;
+        }
     }
 
     li:nth-child(n+2) {

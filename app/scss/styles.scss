@@ -19,7 +19,14 @@
 @import "header/header.scss";
 @import "main/get-started/get-started.scss";
 @import "main/teams/teams.scss";
+@import "main/app-showcase/app-showcase.scss";
 
 
 // media queries
 @import "params/media-queries.scss";
+
+
+body {
+    color: $darkblue;
+    font-weight: 300;
+}

@@ -10,7 +10,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 
 
@@ -19,7 +19,7 @@
 </head>
 <body>
 
-  <!-- Primary Page Layout
+  <!-- Header
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <header class="header container">
       
@@ -56,28 +56,74 @@
 <!-- Teams section
   ----------------------------------------------------->
 
-        <section class="teams">
-            <div class="container">
-              <h1>Kroduct is for <span>everyone</span>!</h1>
+        <section class="teams__wrapper">
+            <div class="teams container">
+              <h1 class="teams__heading">Kroduct is for <span>everyone</span>!</h1>
 
               
               
               <div class="teams__team-types">
-                  <i class="fas fa-chevron-left"></i>
+                  <img class="teams__arrow" src="/assets/img/chevron-left.svg">
                     <button class="teams__team-btn">Startups</button>
                     <button class="teams__team-btn">Product teams</button>
                     <button class="teams__team-btn">Businesses</button>
                     <button class="teams__team-btn">Managers</button>
-                  <i class="fas fa-chevron-right"></i>
+                  <img class="teams__arrow" src="/assets/img/chevron-right.svg">
               </div>
               
 
-              <p>Increase your product development work-flow by managing your teams from birds eye view. No more e-mails back and forth!</p>
-              <p>Learn more</p>
+              <p class="teams__text-desc">Increase your product development work-flow by managing your teams from birds eye view. No more e-mails back and forth!</p>
+              <p class="teams__text-learn">Learn more</p>
             </div>
         </section>
 
-        <section>
+<!-- App showcase section
+  ----------------------------------------------------->
+        <section class="app-showcase container t-align-center">
+                <h1 class="app-showcase__heading">We’ve got <span>everything</span> for you.</h1>
+
+                <div class="app-showcase__wrapper container">
+                      <img class="img-responsive" src="assets/img/task-runner.png" alt="App showcase">
+                      <div class="app-showcase__features">
+                        <figure class="app-showcase__figure">
+                          <img id="figure1" class="img-responsive" src="assets/img/appshow-case__tasks.svg" alt="Tasks">
+                          <figcaption>Tasks</figcaption>
+                        </figure>
+                        <figure class="app-showcase__figure">
+                          <img class="img-responsive" src="assets/img/appshow-case__messaging.svg" alt="Messaging">
+                          <figcaption>Messaging</figcaption>
+                        </figure>
+                        <figure class="app-showcase__figure">
+                          <img class="img-responsive" src="assets/img/appshow-case__collab.svg" alt="Collaboration">
+                          <figcaption>Collaboration</figcaption>
+                        </figure>
+                        <figure class="app-showcase__figure">
+                          <img class="img-responsive" src="assets/img/appshow-case__time.svg" alt="Time">
+                          <figcaption>TimeKeep</figcaption>
+                        </figure>
+                        <figure class="app-showcase__figure">
+                          <img class="img-responsive" src="assets/img/appshow-case__feedback.svg" alt="Feedbacks">
+                          <figcaption>Feedbacks</figcaption>
+                        </figure>
+                      </div>
+                </div>
+
+                <div class="app-showcase__desc t-align-center">
+                      <h2>It’s much more than your regular Tasks</h2>
+
+                      <p>One place to find all the tasks that matter to you. Yours, and your team's.</p>
+                      <p>Quickly check your daily or weekly to-do list or search, sort and filter by Team, Project, Tags and Flags to find any task.</p>
+                      <p>Star smart filters (Subscribed, Delegated, Flagged and Unassigned) to add them to your favorites bar.</p>
+                      <p>Star teammates to add them to your favorites bar.</p>
+                </div>
+
+        </section>
+
+
+
+
+
+        <section class="container">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ex aut, soluta saepe inventore, natus nulla at laborum totam odit dolorem accusantium praesentium nihil tenetur dicta repellendus eveniet sed maxime. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores voluptas cumque in est officiis illo inventore harum magni, quia tempore quibusdam? Blanditiis id mollitia corrupti iure, necessitatibus officia odio molestiae placeat harum, nobis itaque? Blanditiis maiores quis rem eaque pariatur modi nesciunt sed nisi animi! Similique rem praesentium inventore qui magni expedita labore porro deserunt!
         </section>
   </main>
