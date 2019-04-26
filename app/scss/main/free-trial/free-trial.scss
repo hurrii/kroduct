@@ -1,0 +1,14 @@
+@import "free-trial__btn.scss";
+
+
+.free-trial {
+
+    h1 {
+        
+        span {
+            background: url(../assets/img/free-trial__wordshadow.svg) no-repeat;
+            background-position-y: bottom;
+            background-size: 100%;
+        }
+    }
+}

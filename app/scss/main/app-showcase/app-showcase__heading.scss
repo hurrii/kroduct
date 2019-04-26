@@ -1,14 +1,9 @@
 .app-showcase__heading {
-    font-size: 28px;
 
         span {
             background: url(../assets/img/teams-word-shadow.svg) no-repeat;
             background-position-y: 0%;
             background-size: 100%;
             background-position-y: bottom;
-        }
-
-        @media screen and (max-width: 767px) {
-            font-size: 20px;
         }
 }

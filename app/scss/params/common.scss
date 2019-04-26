@@ -1,0 +1,36 @@
+body {
+    color: $darkblue;
+    font-weight: 300;
+}
+
+p {
+    font-size: 16px;
+    color: $grey;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 580px) {
+        font-size: 12px;
+    }
+}
+
+// Heading
+
+.heading {
+    font-size: 28px;
+    font-weight: 400;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 21px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 21px;
+    }
+
+    @media screen and (max-width: 580px) {
+        font-size: 18px;
+    }
+}

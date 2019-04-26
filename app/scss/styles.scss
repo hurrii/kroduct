@@ -15,19 +15,20 @@
 @import "params/rounded-btn.scss";
 
 
+// Common styling
+@import "params/common.scss";
+
+
 // Sections
 @import "header/header.scss";
 @import "main/get-started/get-started.scss";
 @import "main/teams/teams.scss";
 @import "main/app-showcase/app-showcase.scss";
 @import "main/subscription/subscription.scss";
+@import "main/free-trial/free-trial.scss";
+@import "footer/footer.scss";
+
 
 
 // media queries
 @import "params/media-queries.scss";
-
-
-body {
-    color: $darkblue;
-    font-weight: 300;
-}
