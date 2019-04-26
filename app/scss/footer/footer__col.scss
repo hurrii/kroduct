@@ -10,11 +10,16 @@
     h6 {
         font-size: 12px;
         font-weight: bold;
+        cursor: default;
     }
 
     a {
         color: $grey;
         text-decoration: none;
+
+        &:hover {
+            color: $blue;
+        }
     }
 
     i {
@@ -23,7 +28,6 @@
 
     @media screen and (max-width: 768px) {
         font-size: 10px;
-        margin: 0 6px;
 
         h6 {
             font-size: 9px;
