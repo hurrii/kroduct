@@ -1,0 +1,14 @@
+@import 'footer__col.scss';
+
+.footer-wrapper {
+    background: url(../assets/img/footer-bg.svg);
+    background-size: 100%;
+    margin-top: 140px;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+

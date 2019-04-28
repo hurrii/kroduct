@@ -5,17 +5,32 @@
 
 
 // params
-@import 'params/normalize.scss';
-@import 'params/base-styles.scss';
-@import 'params/grid.scss';
-@import 'params/vars.scss';
-@import 'params/display.scss';
-@import 'params/utilities.scss';
-@import 'params/mobile-hidden.scss';
+@import "params/normalize.scss";
+@import "params/base-styles.scss";
+@import "params/grid.scss";
+@import "params/vars.scss";
+@import "params/display.scss";
+@import "params/utilities.scss";
+@import "params/hidden.scss";
+@import "params/rounded-btn.scss";
+
+
+// Common styling
+@import "params/common.scss";
 
 
 // Sections
+@import "header/header.scss";
+@import "main/get-started/get-started.scss";
+@import "main/teams/teams.scss";
+@import "main/app-showcase/app-showcase.scss";
+@import "main/subscription/subscription.scss";
+@import "main/free-trial/free-trial.scss";
+@import "footer/footer.scss";
+@import "menu-icon/menu-icon.scss";
+@import "menu-popup/menu-popup.scss";
+
 
 
 // media queries
-@import 'params/media-queries.scss';
+@import "params/media-queries.scss";

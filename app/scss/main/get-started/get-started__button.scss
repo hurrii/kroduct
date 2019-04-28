@@ -1,0 +1,15 @@
+.get-started__button {
+    width: 238px;
+    height: 54px;
+    font-size: 16px;
+    margin-top: 37px;
+    border-radius: 40px;
+
+    @media screen and (max-width: 768px) {
+        width: 178px;
+        height: 40px;
+        font-size: 13px;
+        margin-top: 17px;
+        border-radius: 20px;
+    }
+}

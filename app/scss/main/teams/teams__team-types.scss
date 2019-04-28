@@ -1,0 +1,9 @@
+.teams__team-types {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+        @media screen and (max-width: 550px) {
+            justify-content: center;
+        }
+}

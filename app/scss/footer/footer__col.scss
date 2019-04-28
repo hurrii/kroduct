@@ -1,0 +1,37 @@
+.footer__col {
+    list-style: none;
+    color: $grey;
+    flex-basis: 20%;
+    max-width: 20%;;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    h6 {
+        font-size: 12px;
+        font-weight: bold;
+        cursor: default;
+    }
+
+    a {
+        color: $grey;
+        text-decoration: none;
+
+        &:hover {
+            color: $blue;
+        }
+    }
+
+    i {
+        color: $blue;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 10px;
+
+        h6 {
+            font-size: 9px;
+            font-weight: bold;
+        }
+    }
+}

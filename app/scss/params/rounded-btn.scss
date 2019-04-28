@@ -1,0 +1,23 @@
+.rounded-btn {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    color: #dadada;
+    background: #0960BD;
+
+    &:hover {
+        color: #ffffff;
+    }
+
+    &:active {
+        background: #0b6cd4;
+        color: #dadada;
+    }
+
+    &:focus {
+        color: #dadada;
+    }
+}
+
+

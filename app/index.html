@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Kroduct</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,28 +10,244 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+
 
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
 </head>
 <body>
 
-  <!-- Primary Page Layout
+  <!-- Header
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="five columns">
-        <h4>Сущность и субстанция</h4>
-        <p>В развитии мысли о бытии категория сущности предшествует категории субстанции, как предполагающая меньшую отчётливость разграничивающей, рассудочной деятельности. Затем, с выработкой мысли о субстанции сущность отождествляется с её атрибутами. Что касается отношения сущности к акциденту и модусу, то в одном смысле она их исключает, в другом — отождествляется с ними. Как постоянный предикат субстанции, сущность её не есть ни акцидент, ни модус; но и акцидент, и модус как таковые имеют свою сущность, то есть свои постоянные предикаты.</p>
-      </div>
-      <div class="seven columns">
-        <h4>Сущность и явление</h4>
-        <p>Явление есть все то, чему принадлежит не бытие в точном значении этого слова, но существование, то есть бытие обусловленное, зависимое. Не имея, таким образом, само в себе субстанции, явление, однако, также имеет свою сущность, то есть постоянные предикаты. Следовательно, противоположение существует не между явлением и сущностью, а между явлением и тем сущим, которое служит первоисточником явления, или, пожалуй, между сущностью явления и сущностью этого сущего. Эта особенность понятия сущности может быть кратко выражена так, что для сущности, как постоянного предиката, необходим субъект логический, но нет необходимости в субъекте действительном.</p>
-      </div>
+  <header class="header container">
+      
+      <nav class="header__navigation">
+          <a href="#" class="header__logo"></a>
+          <ul class="header__navbar mobile-hidden">
+            <li><a href="##">Features</a></li>
+            <li><a href="##">Use Cases</a></li>
+            <li><a href="##">Pricing</a></li>
+            <li><a href="##">Help</a></li>
+          </ul>
+
+          <div class="header__user-login mobile-hidden">
+            <a href="">Login</a>
+            <button class="header__signup-btn rounded-btn">Sign up for free</button>
+          </div>
+    </nav>
+
+  </header>
+
+  <main>
+<!-- Get started section
+  ----------------------------------------------------->
+        <section class="get-started container">
+              <div class="get-started__description">
+                <h1>Discover peace.</h1>
+                <p>Finally, a project management tool that works without all the hassles.</p>
+                <button class="get-started__button rounded-btn">Get started for free</button>
+              </div>
+              <img class="img-responsive" src="assets/img/get-started.png" alt="Get started">
+        </section>
     </div>
-  </div>
+
+<!-- Teams section
+  ----------------------------------------------------->
+
+        <section class="teams__wrapper">
+            <div class="teams container">
+              <h1 class="teams__heading heading">Kroduct is for <span>everyone</span>!</h1>
+
+              
+              
+              <div class="teams__team-types">
+                  <img class="teams__arrow" src="/assets/img/chevron-left.svg">
+                    <button class="teams__team-btn">Startups</button>
+                    <button class="teams__team-btn">Product teams</button>
+                    <button class="teams__team-btn">Businesses</button>
+                    <button class="teams__team-btn">Managers</button>
+                  <img class="teams__arrow" src="/assets/img/chevron-right.svg">
+              </div>
+              
+
+              <p class="teams__text-desc">Increase your product development work-flow by managing your teams from birds eye view. No more e-mails back and forth!</p>
+              <p class="teams__text-learn">Learn more</p>
+            </div>
+        </section>
+
+<!-- App showcase section
+  ----------------------------------------------------->
+        <section class="app-showcase container t-align-center">
+                <h1 class="app-showcase__heading heading">We’ve got <span>everything</span> for you.</h1>
+
+                <div class="app-showcase__wrapper container">
+                      <img class="img-responsive" src="assets/img/task-runner.png" alt="App showcase">
+                      <div class="app-showcase__features">
+                        <figure class="app-showcase__figure">
+                          <img id="figure1" class="img-responsive" src="assets/img/appshow-case__tasks.svg" alt="Tasks">
+                          <figcaption>Tasks</figcaption>
+                        </figure>
+                        <figure class="app-showcase__figure">
+                          <img class="img-responsive" src="assets/img/appshow-case__messaging.svg" alt="Messaging">
+                          <figcaption>Messaging</figcaption>
+                        </figure>
+                        <figure class="app-showcase__figure">
+                          <img class="img-responsive" src="assets/img/appshow-case__collab.svg" alt="Collaboration">
+                          <figcaption>Collaboration</figcaption>
+                        </figure>
+                        <figure class="app-showcase__figure">
+                          <img class="img-responsive" src="assets/img/appshow-case__time.svg" alt="Time">
+                          <figcaption>TimeKeep</figcaption>
+                        </figure>
+                        <figure class="app-showcase__figure">
+                          <img class="img-responsive" src="assets/img/appshow-case__feedback.svg" alt="Feedbacks">
+                          <figcaption>Feedbacks</figcaption>
+                        </figure>
+                      </div>
+                </div>
+
+                <div class="app-showcase__desc t-align-center">
+                      <h2>It’s much more than your regular Tasks</h2>
+
+                      <p>One place to find all the tasks that matter to you. Yours, and your team's.</p>
+                      <p>Quickly check your daily or weekly to-do list or search, sort and filter by Team, Project, Tags and Flags to find any task.</p>
+                      <p>Star smart filters (Subscribed, Delegated, Flagged and Unassigned) to add them to your favorites bar.</p>
+                      <p>Star teammates to add them to your favorites bar.</p>
+                </div>
+
+        </section>
+
+<!-- Subscription section
+  ----------------------------------------------------->
+        <section class="subscription">
+            <h1 class="subscription__heading heading">We’re the most <span>affordable</span> out there!</h1>
+            
+            <div class="subscription__plans-wrapper container">
+              <div class="subscription__plan-item">
+                  <h3>Free</h3>
+                  <p>1 Project</p>
+                  <p>2 Team Members</p>
+              </div>
+              
+              <div class="subscription__plan-item">
+                  <h3>$19.99</h3>
+                  <p>50 Projects</p>
+                  <p>Unlimited Team Members</p>
+              </div>
+
+              <div class="subscription__plan-item">
+                  <h3>159.99$</h3>
+                  <p>Unlimited Projects</p>
+                  <p>Unlimited Team Members</p>
+              </div>
+
+            </div>
+        </section>
+
+<!-- Free trial
+  ----------------------------------------------------->
+        <section class="free-trial container t-align-center">
+            <h1 class="heading">Get your <span>free</span> trial now</h1>
+            <button class="free-trial__btn rounded-btn">Sign up for free</button>
+        </section>
+  </main>
+
+<!-- Footer section
+  ----------------------------------------------------->
+        <footer class="footer-wrapper">
+            <div class="footer container">
+              <ul class="footer__col">
+                <h6>Product</h6>
+
+                <li><a href="##">Features</a></li>
+                <li><a href="##">Use Cases</a></li>
+                <li><a href="##">Pricing</a></li>
+              </ul>
+
+              <ul class="footer__col">
+                <h6>Use Cases</h6> 
+
+                <li><a href="##">ITES</a></li>
+                <li><a href="##">Consultancies</a></li>
+                <li><a href="##">Services Sector</a></li>
+              </ul>
+
+              <ul class="footer__col">
+                <h6>Support</h6>
+
+                <li><a href="##">Blog</a></li>
+                <li><a href="##">FAQ's</a></li>
+                <li><a href="##">Support</a></li>
+              </ul>
+
+              <ul class="footer__col">
+                <h6>Company</h6>
+
+                <li><a href="##">About</a></li>
+                <li><a href="##">Privacy Policy</a></li>
+                <li><a href="##">Terms of service</a></li>
+              </ul>
+
+              <ul class="footer__col">
+                <h6>Get connected</h6>
+
+                <li><i class="fab fa-facebook-square"></i><a href="##">&nbsp;facebook</a></li>
+                <li><i class="fab fa-instagram"></i><a href="##">&nbsp;instagram</a></li>
+                <li><i class="fab fa-twitter"></i><a href="##">&nbsp;twitter</a></li>
+                <li><i class="fab fa-linkedin"></i><a href="##">&nbsp;linkedin</a></li>
+              </ul>
+            </div>
+        </footer>
+
+<!-- Mobile menu
+  ----------------------------------------------------->
+        <div class="menu-icon">
+            <button id="menuButton"><i class="fas fa-bars" id="menuButtonIcon"></i></button>
+        </div>
+
+
+
+        <div class="menu-popup menu-popup__inactive" id="menuPopupWindow">
+            
+              <ul>
+                  <div class="menu-popup__logo"></div>
+                <li id="features">
+                  <a href="##">
+                    <i class="fas fa-tools"></i>
+                    &nbsp;Features</a>
+                </li>
+                <li id="use-cases">
+                    <a href="##">
+                      <i class="fas fa-chalkboard-teacher"></i>
+                      &nbsp;Use Cases</a>
+                </li>
+                <li id="pricing">
+                  <a href="##">
+                    <i class="fas fa-dollar-sign"></i>
+                    &nbsp;Pricing</a>
+                </li>
+                <li id="help">
+                  <a href="##">
+                    <i class="fas fa-hands-helping"></i>
+                    &nbsp;Help</a>
+                </li>
+              </ul>
+
+              <div class="menu-popup__user-wrapper">
+                  <a href="">Login</a>
+                  <button class="header__signup-btn rounded-btn">Sign up for free</button>
+                </div>
+        </div>
+
+<!-- JS
+  ----------------------------------------------------->
+<script src="js/ui.js"></script>
+
+
 
 <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  –––––––––––––––––––––––––––––––––––––––––––––––------>
 </body>
 </html>
