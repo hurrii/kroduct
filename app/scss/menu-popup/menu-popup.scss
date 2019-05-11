@@ -2,6 +2,10 @@
 @import "menu-popup__user-wrapper.scss";
 @import "menu-popup__active.scss";
 
+.menu-popup__logo {
+    margin-top: 7px;
+}
+
 .menu-popup {
     position: absolute;
     top: 15px;

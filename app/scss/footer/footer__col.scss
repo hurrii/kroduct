@@ -1,8 +1,6 @@
 .footer__col {
-    list-style: none;
     color: $grey;
-    flex-basis: 20%;
-    max-width: 20%;;
+    width: 20%;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 500;
@@ -13,19 +11,25 @@
         cursor: default;
     }
 
-    a {
-        color: $grey;
-        text-decoration: none;
+    ul {
+        list-style: none;
 
-        &:hover {
+        a {
+            color: $grey;
+            text-decoration: none;
+    
+            &:hover {
+                color: $blue;
+            }
+        }
+    
+        i {
             color: $blue;
+            margin-right: 2px;
         }
     }
 
-    i {
-        color: $blue;
-        margin-right: 2px;
-    }
+    
 
     @media screen and (max-width: 768px) {
         font-size: 10px;
