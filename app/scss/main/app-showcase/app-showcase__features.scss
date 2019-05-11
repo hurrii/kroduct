@@ -1,4 +1,9 @@
 .app-showcase__features {
 	display: flex;
 	margin-top: -16%;
+	
+	@media screen and (min-width:0\0) {  
+		/* IE9 and IE10 rule sets go here */  
+		margin-top: 0;
+	}
 }

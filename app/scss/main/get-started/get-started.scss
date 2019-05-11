@@ -13,20 +13,20 @@
 }
 
 .get-started__description {
-    flex-basis: 33.333%;
+    width: 33.333%;
 
     @media screen and (max-width: 768px){
-        flex-basis: 100%;
+        width: 100%;
         text-align: center;
     }
 }
 
 .get-started img {
-    flex-basis: 50%;
+    width: 50%;
     margin-left: auto;
 
     @media screen and (max-width: 768px){
-        flex-basis: 100%;
+        width: 100%;
         margin-left: 0;
     }
 }
