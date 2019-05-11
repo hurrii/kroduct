@@ -1,6 +1,6 @@
     .teams__team-btn {
             position: relative;
-            flex-basis: 220px;
+            width: 220px;
             height: 57px;
             margin: 0 5px;
             border: 1px solid rgba(119, 127, 136, 0.2);
@@ -9,15 +9,19 @@
             font-weight: 400;
             color: $grey;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: initial;
 
             @media screen and (max-width: 1200px) {
-                flex-basis: 165px;
+                width: 165px;
                 height: 43px;
                 font-size: 12px;
             }
 
             @media screen and (max-width: 580px) {
-                flex-basis: 124px;
+                width: 124px;
                 height: 33px;
                 font-size: 9px;
             }

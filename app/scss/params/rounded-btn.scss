@@ -3,19 +3,15 @@
     margin: 0;
     font-weight: bold;
     text-align: center;
-    color: #dadada;
+    color: #ffffff;
     background: #0960BD;
 
     &:hover {
-        color: #ffffff;
+        color: #dadada;
     }
 
     &:active {
         background: #0b6cd4;
-        color: #dadada;
-    }
-
-    &:focus {
         color: #dadada;
     }
 }
